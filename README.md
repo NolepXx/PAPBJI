@@ -1,7 +1,7 @@
 # Lite-crack
 
-$ git clone https://github.com/Tamsis-NOP/Lite-crack
+$ git clone https://github.com/NolepXx/PAPBJI
 
-$ cd Lite-crack
+$ cd PAPBJI
 
 $ ls
