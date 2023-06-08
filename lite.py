@@ -30,8 +30,8 @@ def login():
 		ses.post(f'https://mbasic.facebook.com{xzxz["action"]}', data=data2, cookies={'cookie':cok});token = ses.get(f'https://graph.facebook.com/v16.0/device/login_status?method=post&code={kode}&access_token=661587963994814|ffe07cc864fd1dc8fe386229dcb7a05e').json()['access_token'];cetak('\n[√] Akses Token Anda : '+token);open("data.text","w").write(f"{cok}\n{token}");exit("kamu berhasil login")
 	except Exception as e:cetak("[bold red] cookie invalid");exit(e)
 def logo():cetak("""
-[bold red]     ___  __  _____  _____  __   ______________
-[bold red]    / _ \/ / / / _ )/ ___/ / /  /  _/_  __/ __/
+[bold red]    ___  __  _____  _____  __   ______________
+[bold red]   / _ \/ / / / _ )/ ___/ / /  /  _/_  __/ __/
 [bold white] / ___/ /_/ / _  / (_ / / /___/ /  / / / _/ • MOBILE
 [bold white]/_/   \____/____/\___/ /____/___/ /_/ /___/  
                                              
